@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real-Time Tracker</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <header>
+    <h1>📍 Real-Time Device Tracker</h1>
+  </header>
+
+  <main class="main-container" role="main" aria-label="Real-time map and connected users list">
+    <section id="map-container" aria-label="Live device location map">
+      <div id="map" tabindex="0"></div>
+    </section>
+
+    <aside id="sidebar" aria-label="Connected users sidebar">
+      <h2>🟢 Connected Users</h2>
+      <ul id="user-list" role="list">
+      </ul>
+    </aside>
+  </main>
+
+  <footer role="contentinfo">
+  </footer>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet-src.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.socket.io/4.8.1/socket.io.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/js/script.js"></script>
+</body>
+</html>
