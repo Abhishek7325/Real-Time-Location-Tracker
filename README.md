@@ -48,7 +48,7 @@ Helmet (for HTTP security headers)
     ```
 2. Navigate to the project directory:
     ```bash
-    cd realtime-device-tracker
+    cd realtime-location-tracker
     ```
 3. Install the dependencies:
     ```bash
