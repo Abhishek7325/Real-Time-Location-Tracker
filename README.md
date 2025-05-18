@@ -44,7 +44,7 @@ Helmet (for HTTP security headers)
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/realtime-device-tracker.git
+    git clone https://github.com/Abhishek7325/Real-Time-Location-Tracker.git
     ```
 2. Navigate to the project directory:
     ```bash
